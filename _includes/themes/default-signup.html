@@ -27,10 +27,10 @@ lantoniotrento@gmail.com
     {% endif %}
 
 
-    <!--[if lte IE 8]><script src="{{ BASE_PATH }}/assets/js/eventually/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/eventually/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/eventually/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/eventually/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/ie9.css" /><![endif]-->
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -39,16 +39,7 @@ lantoniotrento@gmail.com
 	<![endif]-->
     <link href="{{ site.url }}{{ site.baseurl }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ site.url }}{{ site.baseurl }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <!-- Google ADS mobile block-->
-    {% if site.google_ad_client %}
-    <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script type="text/javascript">
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ site.google_ad_client }}",
-        enable_page_level_ads: true
-        });
-    </script>
-    {% endif %}
+
 
 	  <script>
   window.fbAsyncInit = function() {
