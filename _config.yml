@@ -16,7 +16,7 @@
 title: Gamers Café
 email: internetgamerscafe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A community where you know who is playing the same game you are playing, playing online in hatred-free environments, sharing solutions and finding new friends.
+  A community where you know who is playing the same game you are playing, playing online in hatred-free<br /> environments, sharing solutions and finding new friends.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gamerscafe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
